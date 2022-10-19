@@ -7,11 +7,13 @@
 //  
 var oldalElem = document.querySelector("#oldal");
 var szamitGomb = document.querySelector("#submit");
+var eredmeny = document.querySelector("#result");
 function szamolatlo(oldal) {
     return Math.sqrt(2) * oldal;
 }
 szamitGomb.addEventListener('click', function () {
     var oldal = Number(oldalElem.value);
     var atlo = szamolatlo(oldal);
-    alert(atlo);
+    // alert(atlo);
+    eredmeny.innerHTML = String(atlo);
 });

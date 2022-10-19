@@ -26,5 +26,5 @@ szamitGomb.addEventListener('click' ,()=>{
     let oldal =Number( oldalElem.value);
     let atlo = szamolatlo(oldal);
     // alert(atlo);
-    
+    eredmeny.innerHTML=String(atlo);
 });
