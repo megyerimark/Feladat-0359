@@ -1,6 +1,11 @@
 TypeScript
+fordítása
+npx tsc app.ts
 
 NodeJs projektet kell beadni 
 npm init -y
 
 használojn live-servert
+
+git config --global user.email '<git-commit-address>'
+git config --global --unset credential.helper
