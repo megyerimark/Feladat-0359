@@ -1,0 +1,6 @@
+TypeScript
+
+NodeJs projektet kell beadni 
+npm init -y
+
+használojn live-servert
